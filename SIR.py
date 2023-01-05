@@ -31,7 +31,7 @@ D0 = 0.0 # mortality
 N = S0 + I0 + R0 + D0 # Total population
 beta = 0.22 # rate of spread "Basic Reproductive Number" Estimated Corona = 2.2 
 gamma = 0.07 # rate of recovery
-omega = 1 - gamma # mortality rate of the disease
+omega = 0.1 - gamma # mortality rate of the disease
 epsilon = 0.01 # individuals that can spread the disease but do not show symptoms yet
 mu = 0.01 # rate of population grow (birth)
 
